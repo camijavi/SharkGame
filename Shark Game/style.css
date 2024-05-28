@@ -1,0 +1,51 @@
+#score{
+text-align: center;
+}
+
+#game{
+    width: 600px;
+    height: 300px;
+    border: 3px solid rgb(33, 54, 112);
+    margin: auto;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/016/143/079/non_2x/underwater-landscape-ancient-city-temple-columns-vector.jpg");
+    background-size: cover;
+}
+
+#shark{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 200px;
+    background-image: url("https://i.redd.it/ius93x8u0ih91.png");
+
+}
+
+
+#rock{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: 125px;
+    left: 520px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/025/212/523/original/an-8-bit-retro-styled-pixel-art-illustration-of-an-aqua-crystal-free-png.png");
+    background-size: cover;
+    animation: rock 1.33s infinite;
+}
+
+
+@keyframes rock{
+0%{left: 520px;}
+100%{left: -50px;}
+}
+
+.jump-animation{
+    animation: jump 0.5s;
+}
+
+@keyframes jump{
+    0%{top:200px;}
+    50%{top:75px;}
+    75%{top:75px;}
+
+    100%{top: 200px;}
+}
