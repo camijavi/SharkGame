@@ -17,7 +17,7 @@ text-align: center;
     position: relative;
     top: 200px;
     background-image: url("https://i.redd.it/ius93x8u0ih91.png");
-
+    background-size: cover;
 }
 
 
